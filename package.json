@@ -1,0 +1,23 @@
+{
+  "name": "pizzasdiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaTherf/PizzasDiscordBot.git"
+  },
+  "author": "AaTherf#5812",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaTherf/PizzasDiscordBot/issues"
+  },
+  "homepage": "https://github.com/AaTherf/PizzasDiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
