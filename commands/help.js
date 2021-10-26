@@ -5,12 +5,14 @@ module.exports = {
   commands: ['help', 'h'],
   description: "Describes all of this bot's commands",
   callback: (message, arguments, text) => {
-    let reply = 'Hey there! I am Pizzas Bot , here are my supported commands:\n\n'
+    let reply = "Hey there! I am Pizza's Bot , here are my supported commands:\n\n"
 
-    const commands = loadCommands()
+    const commands = loadCommands();
+
+    const ownerOnly = ["eval"]
+    const filtered = commands.filter(command => !ownerOnly.includes(command.name))
 
     for (const command of commands) {
-      // Check for permissions
       let permissions = command.permission
 
       if (permissions) {
