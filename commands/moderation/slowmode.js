@@ -1,3 +1,5 @@
+const Discord = require('discord.js')
+
 module.exports = {
     commands: ['slowmode' , 'slow'],
     description: 'Changes the slow mode of the channel.',
@@ -32,5 +34,5 @@ module.exports = {
         
     },
     permissions: 'ADMINISTRATOR',
-    requiredRoles: ['874547726958858261'],
+    requiredRoles: ['Owner'],
 }

@@ -1,3 +1,5 @@
+const Discord = require('discord.js')
+
 module.exports = {
     commands: ['ban'],
     description: 'Bans the user mentioned from the server',
@@ -15,5 +17,5 @@ module.exports = {
         }   
     },
     permissions: 'ADMINISTRATOR',
-    requiredRoles: ['874547726958858261'],
+    requiredRoles: ['Owner'],
 }

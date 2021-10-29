@@ -1,3 +1,5 @@
+const Discord = require('discord.js')
+
 module.exports = {
     commands: ['kick'],
     description: 'Kicks the user mentioned from the server',
@@ -15,7 +17,7 @@ module.exports = {
         }   
     },
     permissions: 'ADMINISTRATOR',
-    requiredRoles: ['874547726958858261'],
+    requiredRoles: ['Owner'],
 }
 
 // module.exports = {
